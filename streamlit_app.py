@@ -4,6 +4,7 @@ import re
 import streamlit as st
 from typing import Dict, List
 from scrapfly import ScrapeConfig, ScrapflyClient
+import os
 
 TECHNOLOGIES = [
     "React",
