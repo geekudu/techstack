@@ -78,7 +78,7 @@ TECHNOLOGIES = [
 
 # Initialize Scrapfly client
 SCRAPFLY_KEY =  os.getenv('SCRAPFLY')
-scrapfly = ScrapflyClient(key=SCRAPFLY_KEY
+scrapfly = ScrapflyClient(key=SCRAPFLY_KEY)
 
 # Base configuration for scraping
 BASE_CONFIG = {
